@@ -24,6 +24,7 @@ metadata:
     app: mysql
     tier: database
 spec:
+  storageClassName: manual
   accessModes:
     - ReadWriteOnce   #This specifies the mode of the claim that we are trying to create.
   resources:
